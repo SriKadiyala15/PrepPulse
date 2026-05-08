@@ -2,7 +2,6 @@ import React from 'react'
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 
 import GenerateQuizTab from './pages/GenerateQuizTab.jsx'
-import HistoryTab from './tabs/HistoryTab.jsx'
 import QuizPage from './pages/QuizPage.jsx'
 
 function AppLayout() {
@@ -54,7 +53,6 @@ function AppLayout() {
 
             <Routes>
               <Route path="/" element={<GenerateQuizTab />} />
-              <Route path="/history" element={<HistoryTab />} />
             </Routes>
           </div>
         </section>
