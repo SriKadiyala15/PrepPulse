@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ================= GLOBAL SHELL ================= */
+
+.page-shell {
+  position: relative;
+  min-height: 100vh;
+  background: #ffffff;
+  overflow-x: hidden;
+}
+
+/* ================= FIXED DOODLE SYSTEM ================= */
+
+.page-doodle {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 400px;
+
+  opacity: 1;
+  filter: contrast(1.15);
+  pointer-events: none;
+  z-index: 5;
+}
+
+/* Home page */
+.home-left {
+  left: 10px;
+}
+
+.home-right {
+  right: -1px;
+}
+
+/* Article page */
+.article-right {
+  right: -30px;
+}
+
+/* Quiz page */
+.quiz-right {
+  right: 10px;
+  width: 400px;
+}
+
+/* ================= HERO SECTION ================= */
+
+.hero-section {
+  position: relative;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Proper center column */
+.hero-inner {
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+  padding-left: 160px;
+  padding-right: 180px;
+}
+
+/* Title spacing */
+.hero-inner header {
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+/* URL form width */
+.hero-inner form {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+/* Input sizing */
+.hero-inner input {
+  padding: 12px 16px;
+  font-size: 15px;
+}
+
+/* Button sizing */
+.hero-inner button {
+  padding: 12px 20px;
+  font-size: 14px;
+}
+
+/* ================= CONTENT LAYER ================= */
+
+.page-content {
+  position: relative;
+  z-index: 10;
+}
+
+/* ================= ARTICLE CARD ================= */
+
+.article-card {
+  background: #ffffff;
+  border-radius: 14px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  padding: 2rem;
+  max-width: 860px;
+  margin: 0 auto;
+}
+.article-wrapper {
+  max-width: 860px;
+  margin: 0 auto;
+  padding-left: 160px;   /* space for left doodle */
+  padding-right: 200px;  /* space for right doodle */
+}
+
+/* ================= QUIZ LAYOUT ================= */
+
+.quiz-shell {
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 32px 16px 120px;
+
+  /* space for fixed student */
+  margin-right: 600px;
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 900px) {
+  .page-doodle {
+    display: none;
+  }
+
+  .hero-inner {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .quiz-shell {
+    margin-right: auto;
+  }
+}

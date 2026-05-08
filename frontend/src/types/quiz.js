@@ -1,0 +1,2 @@
+// src/types/quiz.ts
+
