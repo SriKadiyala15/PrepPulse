@@ -16,9 +16,9 @@ The project was built to help students, learners, and knowledge enthusiasts rein
 
 5. An AI model generates multiple-choice questions based on the article.
 
-6.The quiz is returned to the frontend and displayed in an interactive format.
+6. The quiz is returned to the frontend and displayed in an interactive format.
 
-7.Generated quizzes are stored for future access and analysis.
+7. Generated quizzes are stored for future access and analysis.
 
 ## Workflow
 
@@ -44,7 +44,7 @@ User → React Frontend → FastAPI Backend → Wikipedia Scraper → Content Pr
 
 ## Tech Stack
 
-## Frontend
+**Frontend**
 
 React
 
@@ -56,7 +56,7 @@ Axios
 
 React Router
 
-## Backend
+**Backend**
 
 FastAPI
 
@@ -78,8 +78,8 @@ BeautifulSoup
 
 # Live Demo
 
-## Frontend: https://preppulse-five.vercel.app/
+**Frontend:** https://preppulse-five.vercel.app/
 
-## Backend API: https://preppulse-o2ay.onrender.com/
+**Backend API:** https://preppulse-o2ay.onrender.com/
 
 **Note:** The backend is hosted on Render's free tier. If the application has been inactive, please allow approximately 30 seconds for the backend service to wake up before testing.
