@@ -10,9 +10,9 @@ Tech Stack-
 
 Frontend-
 
-1.React (Vite)
+1.React
 
-2.TypeScript
+2.JavaScript
 
 3.Tailwind CSS
 
@@ -26,7 +26,7 @@ Backend-
 
 2.LangChain
 
-3.Google Gemini (LLM)
+3.
 
 4.SQLAlchemy
 
